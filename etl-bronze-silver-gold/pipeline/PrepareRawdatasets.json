@@ -1,0 +1,30 @@
+{
+	"name": "PrepareRawdatasets",
+	"properties": {
+		"activities": [
+			{
+				"name": "Extract_Datasets",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/bathinisanthosh41@gmail.com/Prepare-RawDatasets"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricks3",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2026-04-07T15:35:35Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

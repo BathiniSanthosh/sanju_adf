@@ -1,0 +1,15 @@
+{
+	"name": "santhosh-adf-001",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned,UserAssigned",
+		"principalId": "316db529-e41f-4dac-8bf8-a0182828efb8",
+		"tenantId": "b87cb2a6-5463-4300-aceb-da326711904d",
+		"userAssignedIdentities": {
+			"/subscriptions/917a8c5e-36d7-44da-982f-2699a4bcec60/resourcegroups/santhosh-rg-fin-gp/providers/Microsoft.ManagedIdentity/userAssignedIdentities/santhoshusermanagedIdentity": {
+				"clientId": "f05486b2-08b6-461c-9c58-1209385f75f4",
+				"principalId": "3ce63e59-1803-4496-b5b6-ac7eea38bb19"
+			}
+		}
+	}
+}
