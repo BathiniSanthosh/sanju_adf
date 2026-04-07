@@ -1,0 +1,17 @@
+{
+	"name": "AzureDatabricks1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDatabricks",
+		"typeProperties": {
+			"domain": "https://adb-7405614087565025.5.azuredatabricks.net",
+			"authentication": "MSI",
+			"workspaceResourceId": "/subscriptions/917a8c5e-36d7-44da-982f-2699a4bcec60/resourceGroups/santhosh-rg-fin-gp/providers/Microsoft.Databricks/workspaces/santhoshdbnote001",
+			"credential": {
+				"referenceName": "credential1",
+				"type": "CredentialReference"
+			},
+			"existingClusterId": "0407-153001-xcck5aci"
+		}
+	}
+}
